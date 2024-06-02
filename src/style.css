@@ -14,7 +14,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   font-size: 48px;
   @media (max-width: 576px) {
     font-size: 27px;
@@ -41,6 +40,11 @@ p {
   }
 }
 .container {
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+}
+.about-paragraphs {
   @media (min-width: 768px) {
     max-width: 720px;
   }
